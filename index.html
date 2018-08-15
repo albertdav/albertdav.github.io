@@ -1,1 +1,37 @@
-Overtonline
+---
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+    <title>Overtonline</title>
+  </head>
+  <body>
+    <main>
+      <section id="about">
+        <p>
+          Philosophy is self-inquiry. In all areas of human effort:
+          language, cosmology, history, current affairs, biology,
+          mathematics. Some such are posted in these columns.
+          <a href="https://twitter.com/ShunuMukh">Twitter</a>
+        </p>
+      </section>
+      <section id="posts">
+				<h3>Writings</h3>
+				<ul>
+          {% for post in site.posts %}
+					<li>
+            <span class="date">{{ post.date | date_to_string }}</span>
+						<a href="{{ post.url }}">{{ post.title }}</a>
+					</li>
+          {% endfor %}
+				</ul>
+      </section>
+    </main>
+  </body>
+</html>
