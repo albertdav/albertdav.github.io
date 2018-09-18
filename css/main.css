@@ -38,7 +38,7 @@ body {
     line-height: 1;
 }
 ul {
-    list-style: none;
+    list-style: disc;
 }
 ol {
     list-style: decimal;
@@ -111,6 +111,20 @@ p {
     font-size: 1rem;
     line-height: 1.5em;
     margin-bottom: 3rem;
+}
+
+table {
+		margin-bottom: 3rem;
+}
+
+th {
+		text-align: left;
+		color: rgba(0,0,0,0.54);
+		padding: 0 0 0.5em 0;
+}
+
+td {
+		padding: 0.25em 1.5em 0.25em 0;
 }
 
 /** SECTION: ABOUT **/
