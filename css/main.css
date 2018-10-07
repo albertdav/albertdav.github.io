@@ -42,6 +42,7 @@ ul {
 }
 ol {
     list-style: decimal;
+    margin-bottom: 2rem;
 }
 blockquote, q {
     quotes: none;
@@ -102,9 +103,9 @@ main {
 
 h3 {
     font-size: 1.15rem;
-		font-weight: bold;
-		line-height: 1.75em;
-		margin-bottom: .5em;
+    font-weight: bold;
+    line-height: 1.75em;
+    margin-bottom: .5em;
 }
 
 p {
@@ -114,17 +115,17 @@ p {
 }
 
 table {
-		margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 th {
-		text-align: left;
-		color: rgba(0,0,0,0.54);
-		padding: 0 1.5em 0.5em 0;
+    text-align: left;
+    color: rgba(0,0,0,0.54);
+    padding: 0 1.5em 0.5em 0;
 }
 
 td {
-		padding: 0.25em 1.5em 0.25em 0;
+    padding: 0.25em 1.5em 0.25em 0;
 }
 
 /** SECTION: ABOUT **/
@@ -134,7 +135,7 @@ section#about {
 }
 
 section#about p {
-		margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 /** SECTION: POSTS **/
@@ -211,6 +212,8 @@ article p {
 }
 
 article li {
+    font-size: 1rem;
+    line-height: 1.5em;
     margin-bottom: .5em;
 }
 
